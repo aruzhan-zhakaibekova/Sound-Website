@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("hey_arnold.jpeg");
+  min-width: 100%;
+}
+
+#text h1 {
+  color: royalblue;
+  background-color: antiquewhite;
+}
+
+#text h2 {
+  color: antiquewhite;
+  background-color: royalblue;
+}
+
+#text {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+
+audio::-webkit-media-controls-panel {
+  background-color: royalblue;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
